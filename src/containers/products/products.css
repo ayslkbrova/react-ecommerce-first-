@@ -1,0 +1,179 @@
+.products-section {
+
+    margin: 7rem 5rem 0rem 5rem;
+  
+width: 100%;
+}
+.products-section .products-items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+
+
+.products-section .swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+    content: '';
+}
+
+.products-section .swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+    content: '';
+}
+
+.products-section .products-items .swiper-button-prev {
+    background-image: url("../../images/grommet-icons_form-next-link.png") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1.63044rem;
+    height: 1.63044rem;
+}
+
+.products-section .products-items .swiper-button-next {
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-size: cover;
+    height: 10px;
+    background-image: url("../../images/grommet-icons_form-next-link\ \(1\).png") !important;
+    width: 1.63044rem;
+    height: 1.63044rem;
+    padding: 2rem;
+}
+
+.products-section .products-items .swiper-button-prev,
+.products-section .products-items .swiper-button-next {
+
+    border-radius: 1.63044rem;
+    background: #FFF;
+    box-shadow: 0px 7.031px 19.531px 0px rgba(0, 0, 0, 0.06);
+    display: inline-flex;
+    padding: 0.94731rem;
+    align-items: flex-start;
+    gap: 0.67938rem;
+} 
+ .products-section .swiper-button-next{
+    position: absolute;
+    right: 2rem;
+}
+.products-section .products-items .products-item {
+    width: 16.75544rem;
+    height: 27.60838rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: #FFF;
+
+
+}
+
+.swiper-slide .swiper-slide-active {
+    margin-right: 0;
+}
+
+.products-section .products-items .products-item .products-image {
+    border-top-right-radius: 1.25rem;
+    border-top-left-radius: 1.25rem;
+    width: 100%;
+    height: 14.94663rem;
+    flex-shrink: 0;
+    background-color: #FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.products-section .swiper-horizontal {
+    padding: 3rem 1.5rem 3rem;
+    
+}
+
+.products-section .products-items .products-item .products-image img {
+    position: absolute;
+    top: -3rem;
+
+}
+
+.products-section .products-items .products-item .products-about {
+    margin-top: .86rem;
+}
+
+.products-section .products-items .products-item .products-about .products-category {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.88rem;
+}
+
+.products-section .products-items .products-item .products-about .products-category .category {
+    color: #8D8D8D;
+    font-family: Jost;
+    font-size: 1.04719rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.products-section .products-items .products-item .products-about .products-category .category-name {
+    color: #1D1F23;
+    font-family: Jost;
+    font-size: 1.33281rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+
+.products-section .products-items .products-item .products-about .products-price .price {
+    color: #1D1F23;
+    font-family: Jost;
+    font-size: 1.33281rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.products-section .products-items .products-item .products-about .products-price .price span {
+    color: #1D1F23;
+    font-family: Jost;
+    font-size: 0.952rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+.products-section .products-items .products-item .products-about .products-price {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 6rem;
+}
+   
+.products-section .products-items .products-item .products-about .products-price .add-button {
+    display: inline-flex;
+    padding: 0.76163rem;
+    align-items: flex-start;
+    gap: 0.952rem;
+    border-radius: 1.9375rem;
+    background: #F79D4B;
+    font-size: 2rem;
+    width: 2.52325rem;
+    height: 2.52325rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid .products-section{ 
+    margin: 0rem;
+  
+}
+
+.aysel{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 1rem 0;
+}

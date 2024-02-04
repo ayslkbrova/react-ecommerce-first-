@@ -1,0 +1,78 @@
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6.31rem;
+}
+
+.header-section .header-section-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header-section .header-section-items .head-title {
+    color: #1D1F23;
+    text-align: center;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.75rem;
+    width: 40.3125rem;
+}
+
+.header-section .header-section-items .head-title span {
+    color: #F6973F;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.75rem;
+}
+
+.header-section .header-section-items .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1D1F23;
+    text-align: center;
+    width: 100%;
+    margin-top: .63rem;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-section .header-section-items p {
+    width: 25.3125rem;
+}
+
+.header-section .header-section-items .header-button {
+    margin-top: 2rem;
+    width: 10.5625rem;
+    height: 3.75rem;
+    border-radius: 3.125rem;
+    background: #F6973F;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: "Nunito Sans";
+    font-size: 1.3125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+
+.header-section .header-section-items .header-button:hover {
+
+    background-color: transparent;
+    border: 1px solid #F6973F;
+    color: #Fff;
+} 

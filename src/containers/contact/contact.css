@@ -1,0 +1,40 @@
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5rem 0;
+}
+
+.contact-item p {
+    width: 45.4375rem;
+    color: #1D1F23;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.contact-item .contact-button .button {
+    width: 10.5625rem;
+    height: 3.75rem;
+    border-radius: 3.125rem;
+    background: #F6973F;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: "Nunito Sans";
+    font-size: 1.3125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.contact-item .contact-button .button:hover {
+    background-color: transparent;
+    border: 1px solid #F6973F;
+    color: #F6973F;
+}

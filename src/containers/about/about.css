@@ -1,0 +1,97 @@
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 5rem 0rem 10rem;
+}
+
+.about-section .about-section-items {
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15rem;
+
+}
+
+.about-section .about-section-items .about-section-left-items {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+
+.about-section .about-section-items .about-section-left-items .left-items-bottom .button  a{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 11.5rem;
+    height: 3.625rem;
+    flex-shrink: 0;
+    border-radius: 3.125rem;
+    background: #EF4358;
+    margin-top: 2rem;
+    transition: .3s ease-in-out;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.75rem; /* 333.333% */
+}
+
+.about-section .about-section-items .about-section-left-items .left-items-bottom .button  a:hover{
+    background-color: transparent;
+    border: 1px solid #EF4358;
+    color: #EF4358;
+}
+.about-section .about-section-items .about-section-left-items .left-items-top {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.about-section .about-section-items .about-section-left-items .left-items-top .item-top {
+    width: 14.6875rem;
+    height: 9.5625rem;
+}
+
+.about-section .about-section-items .about-section-left-items .left-items-top .item-top .title {
+    color: #1D1F23;
+    font-family: Jost;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.about-section .about-section-items .about-section-left-items .left-items-top .item-top .content {
+    color: rgba(29, 31, 35, 0.70);
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.about-section .about-section-items .about-section-right-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-section .about-section-items .about-section-right-item .image {
+ 
+   width: 500px;
+  
+}
+
+.about-section .about-section-items .about-section-right-item img {
+    width: 100%;
+
+}

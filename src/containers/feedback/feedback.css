@@ -1,0 +1,108 @@
+.feedback-section {
+    background: #19191B;
+    width: 100%;
+    height: 37.625rem;
+    margin: 5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.feedback-section .feedback-section-items {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+}
+
+.feedback-section .feedback-section-items .feedback-section-left-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.feedback-section .feedback-section-items .feedback-section-left-item .title span {
+    color: #FFF;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.feedback-section .feedback-section-items .feedback-section-left-item .feedback-user {
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.feedback-section .feedback-section-items .feedback-section-left-item .feedback-user .user {
+    display: flex;
+    gap: 1rem;
+}
+
+.feedback-section .feedback-section-items .feedback-section-left-item .feedback-user .user .user-about {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+
+.feedback-section .feedback-section-items .feedback-section-left-item .feedback-user .user .user-about .name {
+    color: #FFF;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.feedback-section .feedback-section-items .feedback-section-left-item .feedback-user .user .user-about .work {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.feedback-section .feedback-section-items .feedback-section-left-item .feedback-user .user-content p {
+    width: 23.9375rem;
+    color: #FFF;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.feedback-section .swiper-button-prev,
+.feedback-section .swiper-button-next {
+    border-radius: 50%;
+    width: 3.125rem;
+    height: 3.125rem;
+    flex-shrink: 0;
+    background-color: #313136;
+    transition: .3s ease-in-out;
+    position: absolute;
+   
+    top: 90%;
+}
+.feedback-section .swiper-button-next{
+    left: 15%;
+}
+
+.feedback-section .swiper-button-prev {
+    left: 10%;
+}
+
+.feedback-section .swiper-button-prev:after,
+.feedback-section .swiper-button-next:after {
+    font-size: 20px;
+    color: #89898A;
+}
+.feedback-section .swiper-button-prev:hover,
+.feedback-section .swiper-button-next:hover{
+    background-color: #EF4358;
+    color:#fff;
+}

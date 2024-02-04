@@ -1,0 +1,81 @@
+.basket-menu .basket-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+    margin: 10px 0;
+
+}
+
+.basket-menu .basket-item .your-cart {
+    color: #1D1F23;
+    font-family: Jost;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.basket-menu .divider {
+    width: 18.3125rem;
+    height: 0.0625rem;
+    background: rgba(57, 59, 63, 0.31);
+    margin: 10px auto;
+}
+
+.basket-menu .basket-item-content .chair-name .name {
+    color: #1D1F23;
+    font-family: Jost;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.basket-menu .basket-item-content .chair-name .category {
+    color: #8D8D8D;
+    font-family: Jost;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.basket-menu .total {
+    color: #000;
+    font-family: Jost;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    gap: 7rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.basket-menu a {
+    display: flex;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+    width: 18.75rem;
+    height: 4rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    background: #F6973F;
+    color: #FFF;
+    font-family: Jost;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.not-found{
+    font-size: 1.5em;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
